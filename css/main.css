@@ -1,0 +1,70 @@
+h1 {
+	font-family: 'Roboto-thin', sans-serif;
+	font-size: 5em;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+p {
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 1.4em;
+}
+
+ul, li {
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 1.2em;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #5b5b5b;
+}
+.page-header {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.socialicon {
+	width: 64px;
+	height: 64px;
+}
+
+.links > a {
+	text-decoration: none;
+	font-family: 'Roboto-light', sans-serif;
+	font-size: 2.4em;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+}
+
+.links > a > img {
+	margin: 20px;
+}
+
+.portrait {
+	width: 256px;
+	height: 256px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.nav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: transparent;
+}
