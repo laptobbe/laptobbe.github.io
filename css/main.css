@@ -33,8 +33,10 @@ a:hover {
 }
 
 .socialicon {
-	width: 64px;
-	height: 64px;
+	width: 50px;
+	height: 50px;
+    margin: 10px;
+    float: right;
 }
 
 .links > a {
@@ -56,15 +58,34 @@ a:hover {
 	height: 256px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
+	margin-bottom: 90px;
 }
 
 .nav {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
+    margin-top: 100px;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
 	background-color: transparent;
+}
+
+.storebadge {
+    width: 147px;
+}
+
+.screenshot {
+    height: %;
+    width: 20%;
+
+}
+
+.app-thumbnail {
+    border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
