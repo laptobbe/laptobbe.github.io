@@ -1,0 +1,7 @@
+baseurl = "http://laptobbe.com"
+languageCode = "en-us"
+title = "Laptobbe"
+[params]
+	twitter = "https://twitter.com/laptobbe"
+	linkedin = "http://se.linkedin.com/pub/tobias-sundstrand/24/227/660/"
+	github = "https://github.com/laptobbe"
