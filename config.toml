@@ -12,7 +12,7 @@ publishdir = "public"
     github = "Laptobbe"
     linkedin = "laptobbe"
     # Google Analytics API key.
-    #ga_api_key = "Your Google Analytics tracking id"
+    ga_api_key = "UA-23558784-1"
     # Mixpanel API key.
     #mixpanel_api_key = "Your Mixpanel API key"
     author = "Tobias Sundstrand"
