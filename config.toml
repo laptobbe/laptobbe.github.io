@@ -1,6 +1,9 @@
 baseurl = "http://laptobbe.com/"
 languageCode = "en-us"
 title = "Laptobbe"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
 
 [params]
     # Social accounts. Link to these accounts are displayed in the header and
