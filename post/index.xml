@@ -6,16 +6,52 @@
     <description>Recent content in Posts on Laptobbe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2015 09:17:44 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2015 17:12:44 +0100</lastBuildDate>
     <atom:link href="http://laptobbe.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Missing in swift</title>
-      <link>http://laptobbe.com/post/swift/</link>
-      <pubDate>Tue, 10 Mar 2015 09:17:44 +0100</pubDate>
+      <title>Simple website with Hugo</title>
+      <link>http://laptobbe.com/post/simple-website/</link>
+      <pubDate>Tue, 10 Mar 2015 17:12:44 +0100</pubDate>
       
-      <guid>http://laptobbe.com/post/swift/</guid>
-      <description>&lt;p&gt;Something that I would love to see in Swift is meta programming capabilities. I say this with a very specific problem in mind, databases.&lt;/p&gt;
+      <guid>http://laptobbe.com/post/simple-website/</guid>
+      <description>
+
+&lt;p&gt;As you might see I have changed the design of my website (more likely this is your first time here, in any case welcome). I first got the idea when the site generation engine &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; was mentioned on &lt;a href=&#34;http://kodsnack.se/&#34;&gt;Kodsnack&lt;/a&gt;. They said they used it to generate the website for their podcast and it sounded very easy and convenient to use. So here it is.&lt;/p&gt;
+
+&lt;p&gt;In this post I will write a bit about Hugo and what I think about the approach.&lt;/p&gt;
+
+&lt;h3 id=&#34;about-hugo:7cad05b780601120b74674fef9389d84&#34;&gt;About Hugo&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”A Fast &amp;amp; Modern Static Website Engine”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hugo likes to brag about how fast they generate sites. I was really sceptical to this a first, not doubting that it would be fast, but how necessary it was for it to be that fast. But as I am writing this I am tabbing between my &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;markdown&lt;/a&gt; editor of choose &lt;a href=&#34;http://bywordapp.com/&#34;&gt;Byword&lt;/a&gt; and my website that is regenerated each time I save. I suspect I can’t go back to working in any other way.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So this is no tutorial on how to use Hugo to create your site. They provide excellent &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;tutorials&lt;/a&gt; for that. What I want to write about is the concept itself.&lt;/p&gt;
+
+&lt;p&gt;Since Hugo sites are actually just old HTML and CSS sites with no dynamic elements or server side loading the sites load extremely fast in the viewers browser. Again with the speed you say, yes it’s important! How much do you resent websites that load slowly? I for one can’t stand it, so why should my readers.&lt;/p&gt;
+
+&lt;h3 id=&#34;mobile:7cad05b780601120b74674fef9389d84&#34;&gt;Mobile&lt;/h3&gt;
+
+&lt;p&gt;Hugo generates it’s sites from markdown as I mentioned earlier, this is great because that is just a basic textile. Making it easy to edit it from anywhere on any device. Fits me perfectly. One thing I need to solve with my setup is the fact that I host the site as a &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github page&lt;/a&gt;. Not that I want a different host but I need to find a good markdown editor with a git client. Hmm maybe I will just build one myself.&lt;/p&gt;
+
+&lt;p&gt;Anyway what I am thinking of doing now is to put the entire site into dropbox so I can easily get the files on my iPhone and iPad. Would be great to be able to review and write on the subway on the way to town.&lt;/p&gt;
+
+&lt;h3 id=&#34;themes:7cad05b780601120b74674fef9389d84&#34;&gt;Themes&lt;/h3&gt;
+
+&lt;p&gt;Hugo has a limited number of themes and they can be quite difficult to browse through. But it is open source and more are being added all the time. I actually added my theme as a submodule and it has been working great so far.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule add https://github.com/keichi/vienna
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And it’s so easy to override the CSS, Images, etc., from the theme. Just add your version of the file you want to replace in your tree at the same relative path as in the theme and Hugo will pick that resource instead.&lt;/p&gt;
+
+&lt;h3 id=&#34;conclusion:7cad05b780601120b74674fef9389d84&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;To conclude. I think that if your website ”Needs” one of these big, evil content management systems, like &lt;a href=&#34;https://wordpress.com/website/&#34;&gt;Wordpress&lt;/a&gt;, you are doing it wrong!&lt;/p&gt;
 </description>
     </item>
     
