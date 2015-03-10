@@ -1,7 +1,20 @@
-baseurl = "http://laptobbe.com"
+baseurl = "http://laptobbe.com/"
 languageCode = "en-us"
 title = "Laptobbe"
+
 [params]
-	twitter = "https://twitter.com/laptobbe"
-	linkedin = "http://se.linkedin.com/pub/tobias-sundstrand/24/227/660/"
-	github = "https://github.com/laptobbe"
+    # Social accounts. Link to these accounts are displayed in the header and
+    # footer.
+    twitter = "Laptobbe"
+    github = "Laptobbe"
+    linkedin = "laptobbe"
+    # Google Analytics API key.
+    #ga_api_key = "Your Google Analytics tracking id"
+    # Mixpanel API key.
+    #mixpanel_api_key = "Your Mixpanel API key"
+    author = "Tobias Sundstrand"
+    avatar = "/images/me.png"
+    #contact = "Your contact link (ex. mailto:foo@example.com)"
+    bio = "Your short bio/tagline"
+    # Short subtitle/tagline. This is displayed in the header.
+    subtitle = "Nice tagline!"
