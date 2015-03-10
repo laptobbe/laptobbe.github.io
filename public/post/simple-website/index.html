@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta property="og:title" content=" Simple website with Hugo &middot;  Laptobbe" />
+  <meta property="og:site_name" content="Laptobbe" />
+  <meta property="og:url" content="http://laptobbe.com/post/simple-website/" />
+  
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:article:published_time" content="2015-03-10T17:12:44&#43;01:00" />
+  
+  
+
+  <title>
+     Simple website with Hugo &middot;  Laptobbe
+  </title>
+
+  <link rel="stylesheet" href="http://laptobbe.com/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://laptobbe.com/css/main.css" />
+  <link rel="stylesheet" href="http://laptobbe.com/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="http://laptobbe.com/css/github.css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
+  <link rel="shortcut icon" href="http://laptobbe.com/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://laptobbe.com/images/apple-touch-icon.png" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Laptobbe" />
+</head>
+<body>
+  <header class="global-header">
+    <section class="header-text">
+      <h1><a href="http://laptobbe.com/">Laptobbe</a></h1>
+      
+      <div class="tag-line">
+        Thoughts from a developer
+      </div>
+      
+      <div class="sns-links hidden-print">
+  
+  <a href="https://twitter.com/Laptobbe" target="_blank">
+      <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/Laptobbe" target="_blank">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="https://jp.linkedin.com/in/laptobbe" target="_blank">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+</div>
+
+      
+      <a href="http://laptobbe.com/" class="btn-header btn-back hidden-xs">
+        <i class="fa fa-angle-left"></i>
+        &nbsp;Home
+      </a>
+      
+      
+    </section>
+  </header>
+  <main class="container">
+
+
+<article>
+  <header>
+    <h1 class="text-primary">Simple website with Hugo</h1>
+    <div class="post-meta clearfix">
+      <div class="post-date pull-left">
+        Posted on
+        <time datetime="2015-03-10T17:12:44&#43;01:00">
+          Mar 10, 2015
+        </time>
+      </div>
+      <div class="pull-right">
+        
+      </div>
+    </div>
+  </header>
+  <section>
+    
+
+<p>As you might see I have changed the design of my website (more likely this is your first time here, in any case welcome). I first got the idea when the site generation engine <a href="http://gohugo.io/">Hugo</a> was mentioned on <a href="http://kodsnack.se/">Kodsnack</a>. They said they used it to generate the website for their podcast and it sounded very easy and convenient to use. So here it is.</p>
+
+<p>In this post I will write a bit about Hugo and what I think about the approach.</p>
+
+<h3 id="about-hugo:7cad05b780601120b74674fef9389d84">About Hugo</h3>
+
+<p><em>”A Fast &amp; Modern Static Website Engine”</em></p>
+
+<p>Hugo likes to brag about how fast they generate sites. I was really sceptical to this a first, not doubting that it would be fast, but how necessary it was for it to be that fast. But as I am writing this I am tabbing between my <a href="http://daringfireball.net/projects/markdown/syntax">markdown</a> editor of choose <a href="http://bywordapp.com/">Byword</a> and my website that is regenerated each time I save. I suspect I can’t go back to working in any other way.</p>
+
+<pre><code class="language-bash">hugo server -w
+</code></pre>
+
+<p>So this is no tutorial on how to use Hugo to create your site. They provide excellent <a href="http://gohugo.io/overview/introduction/">tutorials</a> for that. What I want to write about is the concept itself.</p>
+
+<p>Since Hugo sites are actually just old HTML and CSS sites with no dynamic elements or server side loading the sites load extremely fast in the viewers browser. Again with the speed you say, yes it’s important! How much do you resent websites that load slowly? I for one can’t stand it, so why should my readers.</p>
+
+<h3 id="mobile:7cad05b780601120b74674fef9389d84">Mobile</h3>
+
+<p>Hugo generates it’s sites from markdown as I mentioned earlier, this is great because that is just a basic textile. Making it easy to edit it from anywhere on any device. Fits me perfectly. One thing I need to solve with my setup is the fact that I host the site as a <a href="https://pages.github.com/">Github page</a>. Not that I want a different host but I need to find a good markdown editor with a git client. Hmm maybe I will just build one myself.</p>
+
+<p>Anyway what I am thinking of doing now is to put the entire site into dropbox so I can easily get the files on my iPhone and iPad. Would be great to be able to review and write on the subway on the way to town.</p>
+
+<h3 id="themes:7cad05b780601120b74674fef9389d84">Themes</h3>
+
+<p>Hugo has a limited number of themes and they can be quite difficult to browse through. But it is open source and more are being added all the time. I actually added my theme as a submodule and it has been working great so far.</p>
+
+<pre><code class="language-bash">git submodule add https://github.com/keichi/vienna
+</code></pre>
+
+<p>And it’s so easy to override the CSS, Images, etc., from the theme. Just add your version of the file you want to replace in your tree at the same relative path as in the theme and Hugo will pick that resource instead.</p>
+
+<h3 id="conclusion:7cad05b780601120b74674fef9389d84">Conclusion</h3>
+
+<p>To conclude. I think that if your website ”Needs” one of these big, evil content management systems, like <a href="https://wordpress.com/website/">Wordpress</a>, you are doing it wrong!</p>
+
+  </section>
+  <footer>
+    <section class="author-info row">
+      <div class="author-avatar col-md-2">
+        
+        <img src="/images/me.png" />
+        
+      </div>
+      <div class="author-meta col-md-6">
+        
+        <h1 class="author-name text-primary">Tobias Sundstrand</h1>
+        
+        
+        <div class="author-bio">Consulting developer based in Stockholm. I focus on iOS and API design and implementiation.</div>
+        
+      </div>
+      
+      <div class="author-contact col-md-4">
+        <a href="mailto:tobias@threadsafestudio.com">
+          <i class="fa fa-envelope-o"></i>
+          &nbsp;Contact me
+        </a>
+      </div>
+      
+    </section>
+    <ul class="pager">
+      
+      <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+      
+      
+      <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      
+    </ul>
+    
+  </footer>
+</article>
+
+  </main>
+  <footer class="container global-footer">
+    <div class="copyright-note pull-left">
+      
+    </div>
+    <div class="sns-links hidden-print">
+  
+  <a href="https://twitter.com/Laptobbe" target="_blank">
+      <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/Laptobbe" target="_blank">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="https://jp.linkedin.com/in/laptobbe" target="_blank">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+</div>
+
+  </footer>
+
+  <script src="http://laptobbe.com/js/highlight.pack.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+  
+</body>
+</html>
+
