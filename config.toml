@@ -4,6 +4,7 @@ title = "Laptobbe"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
+theme = "vienna"
 
 [params]
     # Social accounts. Link to these accounts are displayed in the header and

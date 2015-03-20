@@ -3,7 +3,7 @@
 # Deploy #
 
 ````
-hugo -t vienna
+hugo
 
 Commit...
 
