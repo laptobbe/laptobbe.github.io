@@ -6,8 +6,57 @@
     <description>Recent content in Posts on Laptobbe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2015 17:12:44 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2015 17:12:44 +0100</lastBuildDate>
     <atom:link href="http://laptobbe.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Technical App Designer with Sketch</title>
+      <link>http://laptobbe.com/post/sketch/</link>
+      <pubDate>Wed, 01 Apr 2015 17:12:44 +0100</pubDate>
+      
+      <guid>http://laptobbe.com/post/sketch/</guid>
+      <description>
+
+&lt;p&gt;App design is hard! At least if you have a development background like me. There are a lot of things you have to take into account in any design. So to start to learn app design I did what I often do when faced with a new problem. I started looking for new tools. In this case I had heard from people I worked with about an app called &lt;a href=&#34;http://sketchapp.com&#34;&gt;Sketch&lt;/a&gt;, and it came with warm recommendations. So I decided to give it a go. Previously I had tried, with little result, Photoshop and Illustrator. So was very excited to see what this app could do differently.&lt;/p&gt;
+
+&lt;p&gt;In this post I will share my experience with Sketch. Some issues, tips and additional resources I have encountered while working with it.&lt;/p&gt;
+
+&lt;h1 id=&#34;briefing:312c49ee3585d8844801754d97ccfcd7&#34;&gt;Briefing&lt;/h1&gt;
+
+&lt;p&gt;My first step, when learning a new tool, is always to watch and/or read a tutorial. That&amp;rsquo;s only half true though because I never watch a complete tutorial. I really like the idea of making the mistakes myself and I really love solving all the problems that arises. In this case though it might not be true at all because I just downloaded the app and started using with it.&lt;/p&gt;
+
+&lt;p&gt;In my experience it is always better to have a project in mind when starting to work with a new tool. This gives you a goal of what you want to achieve, it also makes it more real in some way. If you don&amp;rsquo;t have a goal in mind, you will end up just &amp;ldquo;playing&amp;rdquo; with it.&lt;/p&gt;
+
+&lt;p&gt;In this case it was quite easy for me. I already had a iOS project that I wanted to work with. A goal/task manager for iPhone, iPad and Mac codename &amp;ldquo;Allan&amp;rdquo;. This project would let me explore a lot of different sizes and layouts (I will write about &amp;ldquo;Allan&amp;rdquo; in a different post, if I don&amp;rsquo;t drop the project as I usually do).&lt;/p&gt;
+
+&lt;h1 id=&#34;first-blood:312c49ee3585d8844801754d97ccfcd7&#34;&gt;First blood&lt;/h1&gt;
+
+&lt;p&gt;Starting up Sketch I found that there was a template with iOS components, great! Next I created a new art board and conveniently there was predefined sizes for iPhone (and a lot of other sizes including iPad sizes). I started copying components from the template to my art board, and changing their sizes and colors I soon realized that everything was changing in the original component. Same went for text I changed in my copied elements. This was apparently a feature not a bug. The elements I copied were of a type called Symbols. What you have to do is to &lt;em&gt;detach&lt;/em&gt; it from the original.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://laptobbe.com/images/sketch1.png&#34; alt=&#34;Sketch context menu ’Detach from Symbol’&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After this initial hurtle I have not run into any major problems. And It has a some features I like;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is easy to manage the layers.&lt;/li&gt;
+&lt;li&gt;Drag n’ drop existing bitmaps or vector I onto the canvas.&lt;/li&gt;
+&lt;li&gt;It opens even very large Sketch documents fast. &lt;em&gt;Amazing!&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sketch is light years ahead of Photoshop in my mind and for a fraction of the price.&lt;/p&gt;
+
+&lt;p&gt;I also know it has a lot of features for exporting different sizes appropriate for iOS development. But I have not yet used these features (I am still designing my first app with it). So I will not comment on them yet.&lt;/p&gt;
+
+&lt;h1 id=&#34;tips:312c49ee3585d8844801754d97ccfcd7&#34;&gt;Tips&lt;/h1&gt;
+
+&lt;p&gt;If you are like me you will just jump right in and skip all the intros. Definitely works it is intuitive enough for that. However I almost forgot the had an intro. After a while it was valuable to refer back to this intro.&lt;/p&gt;
+
+&lt;p&gt;In doing so I also found their &lt;a href=&#34;http://www.bohemiancoding.com/sketch/support/documentation/12-importing/&#34;&gt;support site&lt;/a&gt;. Which I have yet to use, but it seems to go into comprehensive detail for everything you might want to accomplish .&lt;/p&gt;
+
+&lt;p&gt;I might be back later with a further review. To round up I want to recommend a webpage called &lt;a href=&#34;http://www.sketchappsources.com&#34;&gt;Sketchapp Sources&lt;/a&gt; I found that has a lot of resources for Sketch. Found a lot of iOS resources there. I always used &lt;em&gt;teehan+lax&lt;/em&gt; iOS components when trying to use Photoshop, and they have made a &lt;a href=&#34;http://www.sketchappsources.com/free-source/933-ios8-gui-elements-sketch-freebie-resource.html&#34;&gt;version&lt;/a&gt; for sketch as well.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Coder Podcasts Recommendations</title>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta property="og:title" content=" Technical App Designer with Sketch &middot;  Laptobbe" />
+  <meta property="og:site_name" content="Laptobbe" />
+  <meta property="og:url" content="http://laptobbe.com/post/sketch/" />
+  
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:article:published_time" content="2015-04-01T17:12:44&#43;01:00" />
+  
+  
+
+  <title>
+     Technical App Designer with Sketch &middot;  Laptobbe
+  </title>
+
+  <link rel="stylesheet" href="http://laptobbe.com/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://laptobbe.com/css/main.css" />
+  <link rel="stylesheet" href="http://laptobbe.com/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="http://laptobbe.com/css/github.css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
+  <link rel="shortcut icon" href="http://laptobbe.com/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://laptobbe.com/images/apple-touch-icon.png" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Laptobbe" />
+</head>
+<body>
+  <header class="global-header">
+    <section class="header-text">
+      <h1><a href="http://laptobbe.com/">Laptobbe</a></h1>
+      
+      <div class="tag-line">
+        Thoughts from a developer
+      </div>
+      
+      <div class="sns-links hidden-print">
+  
+  <a href="https://twitter.com/Laptobbe" target="_blank">
+      <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/Laptobbe" target="_blank">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="https://jp.linkedin.com/in/laptobbe" target="_blank">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+</div>
+
+      
+      <a href="http://laptobbe.com/" class="btn-header btn-back hidden-xs">
+        <i class="fa fa-angle-left"></i>
+        &nbsp;Home
+      </a>
+      
+      
+    </section>
+  </header>
+  <main class="container">
+
+
+<article>
+  <header>
+    <h1 class="text-primary">Technical App Designer with Sketch</h1>
+    <div class="post-meta clearfix">
+      <div class="post-date pull-left">
+        Posted on
+        <time datetime="2015-04-01T17:12:44&#43;01:00">
+          Apr 1, 2015
+        </time>
+      </div>
+      <div class="pull-right">
+        
+      </div>
+    </div>
+  </header>
+  <section>
+    
+
+<p>App design is hard! At least if you have a development background like me. There are a lot of things you have to take into account in any design. So to start to learn app design I did what I often do when faced with a new problem. I started looking for new tools. In this case I had heard from people I worked with about an app called <a href="http://sketchapp.com">Sketch</a>, and it came with warm recommendations. So I decided to give it a go. Previously I had tried, with little result, Photoshop and Illustrator. So was very excited to see what this app could do differently.</p>
+
+<p>In this post I will share my experience with Sketch. Some issues, tips and additional resources I have encountered while working with it.</p>
+
+<h1 id="briefing:312c49ee3585d8844801754d97ccfcd7">Briefing</h1>
+
+<p>My first step, when learning a new tool, is always to watch and/or read a tutorial. That&rsquo;s only half true though because I never watch a complete tutorial. I really like the idea of making the mistakes myself and I really love solving all the problems that arises. In this case though it might not be true at all because I just downloaded the app and started using with it.</p>
+
+<p>In my experience it is always better to have a project in mind when starting to work with a new tool. This gives you a goal of what you want to achieve, it also makes it more real in some way. If you don&rsquo;t have a goal in mind, you will end up just &ldquo;playing&rdquo; with it.</p>
+
+<p>In this case it was quite easy for me. I already had a iOS project that I wanted to work with. A goal/task manager for iPhone, iPad and Mac codename &ldquo;Allan&rdquo;. This project would let me explore a lot of different sizes and layouts (I will write about &ldquo;Allan&rdquo; in a different post, if I don&rsquo;t drop the project as I usually do).</p>
+
+<h1 id="first-blood:312c49ee3585d8844801754d97ccfcd7">First blood</h1>
+
+<p>Starting up Sketch I found that there was a template with iOS components, great! Next I created a new art board and conveniently there was predefined sizes for iPhone (and a lot of other sizes including iPad sizes). I started copying components from the template to my art board, and changing their sizes and colors I soon realized that everything was changing in the original component. Same went for text I changed in my copied elements. This was apparently a feature not a bug. The elements I copied were of a type called Symbols. What you have to do is to <em>detach</em> it from the original.</p>
+
+<p><img src="/images/sketch1.png" alt="Sketch context menu ’Detach from Symbol’" />
+</p>
+
+<p>After this initial hurtle I have not run into any major problems. And It has a some features I like;</p>
+
+<ul>
+<li>It is easy to manage the layers.</li>
+<li>Drag n’ drop existing bitmaps or vector I onto the canvas.</li>
+<li>It opens even very large Sketch documents fast. <em>Amazing!</em></li>
+</ul>
+
+<p>Sketch is light years ahead of Photoshop in my mind and for a fraction of the price.</p>
+
+<p>I also know it has a lot of features for exporting different sizes appropriate for iOS development. But I have not yet used these features (I am still designing my first app with it). So I will not comment on them yet.</p>
+
+<h1 id="tips:312c49ee3585d8844801754d97ccfcd7">Tips</h1>
+
+<p>If you are like me you will just jump right in and skip all the intros. Definitely works it is intuitive enough for that. However I almost forgot the had an intro. After a while it was valuable to refer back to this intro.</p>
+
+<p>In doing so I also found their <a href="http://www.bohemiancoding.com/sketch/support/documentation/12-importing/">support site</a>. Which I have yet to use, but it seems to go into comprehensive detail for everything you might want to accomplish .</p>
+
+<p>I might be back later with a further review. To round up I want to recommend a webpage called <a href="http://www.sketchappsources.com">Sketchapp Sources</a> I found that has a lot of resources for Sketch. Found a lot of iOS resources there. I always used <em>teehan+lax</em> iOS components when trying to use Photoshop, and they have made a <a href="http://www.sketchappsources.com/free-source/933-ios8-gui-elements-sketch-freebie-resource.html">version</a> for sketch as well.</p>
+
+  </section>
+  <footer>
+    <section class="author-info row">
+      <div class="author-avatar col-md-2">
+        
+        <img src="/images/me.png" />
+        
+      </div>
+      <div class="author-meta col-md-6">
+        
+        <h1 class="author-name text-primary">Tobias Sundstrand</h1>
+        
+        
+        <div class="author-bio">Consulting developer based in Stockholm. I focus on iOS and API design and implementiation.</div>
+        
+      </div>
+      
+      <div class="author-contact col-md-4">
+        <a href="mailto:tobias@threadsafestudio.com">
+          <i class="fa fa-envelope-o"></i>
+          &nbsp;Contact me
+        </a>
+      </div>
+      
+    </section>
+    <ul class="pager">
+      
+      <li class="previous"><a href="http://laptobbe.com/post/podcasts/"><span aria-hidden="true">&larr;</span> Older</a></li>
+      
+      
+      <li class="next disabled"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      
+    </ul>
+    
+  </footer>
+</article>
+
+  </main>
+  <footer class="container global-footer">
+    <div class="copyright-note pull-left">
+      
+    </div>
+    <div class="sns-links hidden-print">
+  
+  <a href="https://twitter.com/Laptobbe" target="_blank">
+      <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  <a href="https://github.com/Laptobbe" target="_blank">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="https://jp.linkedin.com/in/laptobbe" target="_blank">
+    <i class="fa fa-linkedin"></i>
+  </a>
+  
+</div>
+
+  </footer>
+
+  <script src="http://laptobbe.com/js/highlight.pack.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-23558784-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+  
+</body>
+</html>
+
