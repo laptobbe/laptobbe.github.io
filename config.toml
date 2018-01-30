@@ -4,21 +4,70 @@ title = "Laptobbe"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-theme = "vienna"
+theme = "hugo-initio"
 
 [params]
-    # Social accounts. Link to these accounts are displayed in the header and
-    # footer.
-    twitter = "Laptobbe"
-    github = "Laptobbe"
-    linkedin = "laptobbe"
-    # Google Analytics API key.
-    ga_api_key = "UA-23558784-1"
-    # Mixpanel API key.
-    #mixpanel_api_key = "Your Mixpanel API key"
-    author = "Tobias Sundstrand"
-    avatar = "/images/me.png"
-    contact = "mailto:tobias@threadsafestudio.com"
-    bio = "Consulting developer based in Stockholm. I focus on iOS and API design and implementiation."
-    # Short subtitle/tagline. This is displayed in the header.
-    subtitle = "Thoughts from a developer"
+    name = 'Tobias Brander'
+    description = "Consulting developer based in Stockholm"
+    email = "tobias@threadsafestudio.com"
+    phone = "+46 70 931 07 86"
+    year = 2018
+    background = "Hello"
+    favicon = "images/favicon.ico"
+    profileimage = "images/me.png"
+    DateForm = "January 2, 2006"
+    subheader = "Code is just code and language is just syntax. But understanding the need and making sure it goes the *right* thing not just *correctly*, that is the real challange."
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownload = false
+    showClients = false
+
+    footerEnableContact = true
+    footerEnableFollowme = true
+    footerEnableTextWidget = false
+    footerEnableFormWidget = false
+
+    [params.google.analytics]
+      trackerID = "UA-23558784-1"
+
+    [[menu.main]]
+      name = "home"
+      url = "/"
+      weight = 1
+    [[menu.main]]
+      name = "blog"
+      url = "/post/"
+      weight = 5
+    [[menu.main]]
+      name = "about"
+      url = "/about/"
+      weight = 10
+    [[menu.main]]
+      name = "cv"
+      url = "/cv/"
+      weight = 15
+
+    [[params.social]]
+      title = "linkedin"
+      url = "https://www.linkedin.com/in/laptobbe"
+      icon = "fa-linkedin-square"
+      footer = true
+      sharethis = true
+      network = "linkedin"
+
+    [[params.social]]
+   	  title = "github"
+      url = "https://github.com/laptobbe"
+      icon = "fa-github"
+      footer = true
+      sharethis = false
+      network = ""
+    [[params.social]]
+   	  title = "email"
+      url = "mailto:tobias@threadsafestudio.com"
+      icon = "fa-envelope"
+      footer = true
+      sharethis = true
+      network = "email"
