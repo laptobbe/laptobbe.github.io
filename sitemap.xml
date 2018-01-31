@@ -2,9 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://laptobbe.com/</loc>
-    <lastmod>2015-04-01T17:12:44+01:00</lastmod>
-    <priority>0</priority>
+    <loc>http://laptobbe.com/cv/</loc>
+    <lastmod>2018-01-30T23:21:29+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/about/</loc>
+    <lastmod>2018-01-30T01:10:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/service/ios/</loc>
+    <lastmod>2018-01-30T01:09:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/service/android/</loc>
+    <lastmod>2018-01-30T01:09:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/service/backend/</loc>
+    <lastmod>2018-01-30T01:09:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/service/concept/</loc>
+    <lastmod>2018-01-30T01:08:04+01:00</lastmod>
   </url>
   
   <url>
@@ -20,6 +44,24 @@
   <url>
     <loc>http://laptobbe.com/post/simple-website/</loc>
     <lastmod>2015-03-10T17:12:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/</loc>
+    <lastmod>2018-01-30T23:21:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/post/</loc>
+    <lastmod>2015-04-01T17:12:44+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://laptobbe.com/service/</loc>
+    <lastmod>2018-01-30T01:09:38+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

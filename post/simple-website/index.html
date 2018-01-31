@@ -1,94 +1,109 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head prefix="og: http://ogp.me/ns#">
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Simple website with Hugo &middot;  Laptobbe" />
-  <meta property="og:site_name" content="Laptobbe" />
-  <meta property="og:url" content="http://laptobbe.com/post/simple-website/" />
-  
-  <meta property="og:type" content="article" />
-  
-  <meta property="og:article:published_time" content="2015-03-10T17:12:44&#43;01:00" />
-  
-  
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
-  <title>
-     Simple website with Hugo &middot;  Laptobbe
-  </title>
+	<title>Simple website with Hugo</title>
 
-  <link rel="stylesheet" href="http://laptobbe.com/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="http://laptobbe.com/css/main.css" />
-  <link rel="stylesheet" href="http://laptobbe.com/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="http://laptobbe.com/css/github.css" />
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
-  <link rel="shortcut icon" href="http://laptobbe.com/images/favicon.ico" />
-  <link rel="apple-touch-icon" href="http://laptobbe.com/images/apple-touch-icon.png" />
-  <link href="" rel="alternate" type="application/rss+xml" title="Laptobbe" />
-</head>
-<body>
-  <header class="global-header">
-    <section class="header-text">
-      <h1><a href="http://laptobbe.com/">Laptobbe</a></h1>
-      
-      <div class="tag-line">
-        Thoughts from a developer
-      </div>
-      
-      <div class="sns-links hidden-print">
-  
-  <a href="https://twitter.com/Laptobbe" target="_blank">
-      <i class="fa fa-twitter"></i>
-  </a>
-  
-  
-  
-  <a href="https://github.com/Laptobbe" target="_blank">
-    <i class="fa fa-github"></i>
-  </a>
-  
-  
-  <a href="https://jp.linkedin.com/in/laptobbe" target="_blank">
-    <i class="fa fa-linkedin"></i>
-  </a>
-  
-</div>
+	<link rel="shortcut icon" href="http://laptobbe.com/images/favicon.ico">
 
-      
-      <a href="http://laptobbe.com/" class="btn-header btn-back hidden-xs">
-        <i class="fa fa-angle-left"></i>
-        &nbsp;Home
-      </a>
-      
-      
-    </section>
-  </header>
-  <main class="container">
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	<link rel="stylesheet" href="http://laptobbe.com/css/styles.css">
 
+	
 
-<article>
-  <header>
-    <h1 class="text-primary">Simple website with Hugo</h1>
-    <div class="post-meta clearfix">
-      <div class="post-date pull-left">
-        Posted on
-        <time datetime="2015-03-10T17:12:44&#43;01:00">
-          Mar 10, 2015
-        </time>
-      </div>
-      <div class="pull-right">
-        
-      </div>
-    </div>
-  </header>
-  <section>
+    
+        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=&product=inline-share-buttons"></script>
     
 
-<p>As you might see I have changed the design of my website (more likely this is your first time here, in any case welcome). I first got the idea when the site generation engine <a href="http://gohugo.io/">Hugo</a> was mentioned on <a href="http://kodsnack.se/">Kodsnack</a>. They said they used it to generate the website for their podcast and it sounded very easy and convenient to use. So here it is.</p>
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="http://laptobbe.com/images/me.png" alt="">
+			<span class="title">Tobias Brander</span>
+			<span class="tagline">Consulting developer based in Stockholm<br>
+				<a href="">tobias@threadsafestudio.com</a>
+            </span>
+		</h1>
+	</div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+                <li>
+                    <a href="/post/">blog</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">about</a>
+                </li>
+                
+                <li>
+                    <a href="/cv/">cv</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+</header>
+
+
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+ 							<span class="posted-on"><time class="entry-date published" date="2015-03-10 17:12:44 &#43;0100 CET">March 10, 2015</time></span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="http://laptobbe.com/post/simple-website/" rel="bookmark">Simple website with Hugo</a></h1>
+					</header>
+					<div class="entry-content">
+						<p>As you might see I have changed the design of my website (more likely this is your first time here, in any case welcome). I first got the idea when the site generation engine <a href="http://gohugo.io/">Hugo</a> was mentioned on <a href="http://kodsnack.se/">Kodsnack</a>. They said they used it to generate the website for their podcast and it sounded very easy and convenient to use. So here it is.</p>
 
 <p>In this post I will write a bit about Hugo and what I think about the approach.</p>
 
-<h3 id="about-hugo:7cad05b780601120b74674fef9389d84">About Hugo</h3>
+<p></p>
+
+<h3 id="about-hugo">About Hugo</h3>
 
 <p><em>”A Fast &amp; Modern Static Website Engine”</em></p>
 
@@ -101,13 +116,13 @@
 
 <p>Since Hugo sites are actually just old HTML and CSS sites with no dynamic elements or server side loading the sites load extremely fast in the viewers browser. Again with the speed you say, yes it’s important! How much do you resent websites that load slowly? I for one can’t stand it, so why should my readers.</p>
 
-<h3 id="mobile:7cad05b780601120b74674fef9389d84">Mobile</h3>
+<h3 id="mobile">Mobile</h3>
 
 <p>Hugo generates it’s sites from markdown as I mentioned earlier, this is great because that is just a basic textile. Making it easy to edit it from anywhere on any device. Fits me perfectly. One thing I need to solve with my setup is the fact that I host the site as a <a href="https://pages.github.com/">Github page</a>. Not that I want a different host but I need to find a good markdown editor with a git client. Hmm maybe I will just build one myself.</p>
 
 <p>Anyway what I am thinking of doing now is to put the entire site into dropbox so I can easily get the files on my iPhone and iPad. Would be great to be able to review and write on the subway on the way to town.</p>
 
-<h3 id="themes:7cad05b780601120b74674fef9389d84">Themes</h3>
+<h3 id="themes">Themes</h3>
 
 <p>Hugo has a limited number of themes and they can be quite difficult to browse through. But it is open source and more are being added all the time. I actually added my theme as a submodule and it has been working great so far.</p>
 
@@ -116,88 +131,127 @@
 
 <p>And it’s so easy to override the CSS, Images, etc., from the theme. Just add your version of the file you want to replace in your tree at the same relative path as in the theme and Hugo will pick that resource instead.</p>
 
-<h3 id="conclusion:7cad05b780601120b74674fef9389d84">Conclusion</h3>
+<h3 id="conclusion">Conclusion</h3>
 
 <p>To conclude. I think that if your website ”Needs” one of these big, evil content management systems, like <a href="https://wordpress.com/website/">Wordpress</a>, you are doing it wrong!</p>
+					</div>
+				</article>
 
-  </section>
-  <footer>
-    <section class="author-info row">
-      <div class="author-avatar col-md-2">
-        
-        <img src="/images/me.png" />
-        
-      </div>
-      <div class="author-meta col-md-6">
-        
-        <h1 class="author-name text-primary">Tobias Sundstrand</h1>
-        
-        
-        <div class="author-bio">Consulting developer based in Stockholm. I focus on iOS and API design and implementiation.</div>
-        
-      </div>
-      
-      <div class="author-contact col-md-4">
-        <a href="mailto:tobias@threadsafestudio.com">
-          <i class="fa fa-envelope-o"></i>
-          &nbsp;Contact me
-        </a>
-      </div>
-      
-    </section>
-    <ul class="pager">
-      
-      <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
-      
-      
-      <li class="next"><a href="http://laptobbe.com/post/podcasts/">Newer <span aria-hidden="true">&rarr;</span></a></li>
-      
-    </ul>
-    
-  </footer>
-</article>
+			</div>
+		</div> 
 
-  </main>
-  <footer class="container global-footer">
-    <div class="copyright-note pull-left">
-      
-    </div>
-    <div class="sns-links hidden-print">
-  
-  <a href="https://twitter.com/Laptobbe" target="_blank">
-      <i class="fa fa-twitter"></i>
-  </a>
-  
-  
-  
-  <a href="https://github.com/Laptobbe" target="_blank">
-    <i class="fa fa-github"></i>
-  </a>
-  
-  
-  <a href="https://jp.linkedin.com/in/laptobbe" target="_blank">
-    <i class="fa fa-linkedin"></i>
-  </a>
-  
-</div>
+        <div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
 
-  </footer>
+				<div id="share">
+                    
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
 
-  <script src="http://laptobbe.com/js/highlight.pack.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-23558784-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  
-  
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+                    
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>&#43;46 70 931 07 86<br>
+						<a href="mailto:tobias@threadsafestudio.com">tobias@threadsafestudio.com</a><br>
+						<br>
+						
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+                        
+                            
+                                <a href="https://www.linkedin.com/in/laptobbe" target="_blank"><i class="fa fa-linkedin-square fa-2"></i></a>
+                            
+                        
+                            
+                                <a href="https://github.com/laptobbe" target="_blank"><i class="fa fa-github fa-2"></i></a>
+                            
+                        
+                            
+                                <a href="mailto:tobias@threadsafestudio.com" target="_blank"><i class="fa fa-envelope fa-2"></i></a>
+                            
+                        
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p></p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2018, Tobias Brander<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+                    </p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://laptobbe.com/js/template.js"></script>
+<script id="dsq-count-scr" src="///count.js" async></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-23558784-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
 </body>
 </html>
 

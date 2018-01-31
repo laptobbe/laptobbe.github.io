@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Laptobbe</title>
-    <link>http://laptobbe.com/post/</link>
+    <link>http://laptobbe.com/post/index.xml</link>
     <description>Recent content in Posts on Laptobbe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -15,13 +15,13 @@
       <pubDate>Wed, 01 Apr 2015 17:12:44 +0100</pubDate>
       
       <guid>http://laptobbe.com/post/sketch/</guid>
-      <description>
-
-&lt;p&gt;App design is hard! At least if you have a development background like me. There are a lot of things you have to take into account in any design. So to start to learn app design I did what I often do when faced with a new problem. I started looking for new tools. In this case I had heard from people I worked with about an app called &lt;a href=&#34;http://sketchapp.com&#34;&gt;Sketch&lt;/a&gt;, and it came with warm recommendations. So I decided to give it a go. Previously I had tried, with little result, Photoshop and Illustrator. So was very excited to see what this app could do differently.&lt;/p&gt;
+      <description>&lt;p&gt;App design is hard! At least if you have a development background like me. There are a lot of things you have to take into account in any design. So to start to learn app design I did what I often do when faced with a new problem. I started looking for new tools. In this case I had heard from people I worked with about an app called &lt;a href=&#34;http://sketchapp.com&#34;&gt;Sketch&lt;/a&gt;, and it came with warm recommendations. So I decided to give it a go. Previously I had tried, with little result, Photoshop and Illustrator. So was very excited to see what this app could do differently.&lt;/p&gt;
 
 &lt;p&gt;In this post I will share my experience with Sketch. Some issues, tips and additional resources I have encountered while working with it.&lt;/p&gt;
 
-&lt;h1 id=&#34;briefing:312c49ee3585d8844801754d97ccfcd7&#34;&gt;Briefing&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;briefing&#34;&gt;Briefing&lt;/h1&gt;
 
 &lt;p&gt;My first step, when learning a new tool, is always to watch and/or read a tutorial. That&amp;rsquo;s only half true though because I never watch a complete tutorial. I really like the idea of making the mistakes myself and I really love solving all the problems that arises. In this case though it might not be true at all because I just downloaded the app and started using with it.&lt;/p&gt;
 
@@ -29,12 +29,11 @@
 
 &lt;p&gt;In this case it was quite easy for me. I already had a iOS project that I wanted to work with. A goal/task manager for iPhone, iPad and Mac codename &amp;ldquo;Allan&amp;rdquo;. This project would let me explore a lot of different sizes and layouts (I will write about &amp;ldquo;Allan&amp;rdquo; in a different post, if I don&amp;rsquo;t drop the project as I usually do).&lt;/p&gt;
 
-&lt;h1 id=&#34;first-blood:312c49ee3585d8844801754d97ccfcd7&#34;&gt;First blood&lt;/h1&gt;
+&lt;h1 id=&#34;first-blood&#34;&gt;First blood&lt;/h1&gt;
 
 &lt;p&gt;Starting up Sketch I found that there was a template with iOS components, great! Next I created a new art board and conveniently there was predefined sizes for iPhone (and a lot of other sizes including iPad sizes). I started copying components from the template to my art board, and changing their sizes and colors I soon realized that everything was changing in the original component. Same went for text I changed in my copied elements. This was apparently a feature not a bug. The elements I copied were of a type called Symbols. What you have to do is to &lt;em&gt;detach&lt;/em&gt; it from the original.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://laptobbe.com/images/sketch1.png&#34; alt=&#34;Sketch context menu ’Detach from Symbol’&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://laptobbe.com/images/sketch1.png&#34; alt=&#34;Sketch context menu ’Detach from Symbol’&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After this initial hurtle I have not run into any major problems. And It has a some features I like;&lt;/p&gt;
 
@@ -48,14 +47,13 @@
 
 &lt;p&gt;I also know it has a lot of features for exporting different sizes appropriate for iOS development. But I have not yet used these features (I am still designing my first app with it). So I will not comment on them yet.&lt;/p&gt;
 
-&lt;h1 id=&#34;tips:312c49ee3585d8844801754d97ccfcd7&#34;&gt;Tips&lt;/h1&gt;
+&lt;h1 id=&#34;tips&#34;&gt;Tips&lt;/h1&gt;
 
 &lt;p&gt;If you are like me you will just jump right in and skip all the intros. Definitely works it is intuitive enough for that. However I almost forgot the had an intro. After a while it was valuable to refer back to this intro.&lt;/p&gt;
 
 &lt;p&gt;In doing so I also found their &lt;a href=&#34;http://www.bohemiancoding.com/sketch/support/documentation/12-importing/&#34;&gt;support site&lt;/a&gt;. Which I have yet to use, but it seems to go into comprehensive detail for everything you might want to accomplish .&lt;/p&gt;
 
-&lt;p&gt;I might be back later with a further review. To round up I want to recommend a webpage called &lt;a href=&#34;http://www.sketchappsources.com&#34;&gt;Sketchapp Sources&lt;/a&gt; I found that has a lot of resources for Sketch. Found a lot of iOS resources there. I always used &lt;em&gt;teehan+lax&lt;/em&gt; iOS components when trying to use Photoshop, and they have made a &lt;a href=&#34;http://www.sketchappsources.com/free-source/933-ios8-gui-elements-sketch-freebie-resource.html&#34;&gt;version&lt;/a&gt; for sketch as well.&lt;/p&gt;
-</description>
+&lt;p&gt;I might be back later with a further review. To round up I want to recommend a webpage called &lt;a href=&#34;http://www.sketchappsources.com&#34;&gt;Sketchapp Sources&lt;/a&gt; I found that has a lot of resources for Sketch. Found a lot of iOS resources there. I always used &lt;em&gt;teehan+lax&lt;/em&gt; iOS components when trying to use Photoshop, and they have made a &lt;a href=&#34;http://www.sketchappsources.com/free-source/933-ios8-gui-elements-sketch-freebie-resource.html&#34;&gt;version&lt;/a&gt; for sketch as well.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,16 +62,16 @@
       <pubDate>Fri, 20 Mar 2015 17:12:44 +0100</pubDate>
       
       <guid>http://laptobbe.com/post/podcasts/</guid>
-      <description>
-
-&lt;p&gt;I listen to a lot of great tech podcasts and I wanted to share a few coder related once with you. If you have any other favourites that I should listen to send me a tweet.&lt;/p&gt;
+      <description>&lt;p&gt;I listen to a lot of great tech podcasts and I wanted to share a few coder related once with you. If you have any other favourites that I should listen to send me a tweet.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://kodsnack.se&#34;&gt;Kodsnack&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://buildphase.fm&#34;&gt;Build Phase&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;kodsnack:490078144366c347e8b62bdc4bb6103e&#34;&gt;Kodsnack&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;kodsnack&#34;&gt;Kodsnack&lt;/h1&gt;
 
 &lt;p&gt;Kodsnack is a podcast in Swedish about coding and development related topics. The best thing about this podcast must be Kristoffer and the way he always seems to have something new to complain about, or JavaScript. It is always funny, but there is always a fundamental truth to what he says and he has made me aware of numerous problems I didn&amp;rsquo;t even know existed. The other two hosts Tobias and Fredrik are also great, but you always have a favourite, don&amp;rsquo;t you.&lt;/p&gt;
 
@@ -81,12 +79,11 @@
 
 &lt;p&gt;Kodsnack has made a huge impact on my life and how I think about my work as a coder. I can truly say I am a better coder because of it. I am always looking forward to the next episode and I have listened since episode 0. I can&amp;rsquo;t recommend it enough.&lt;/p&gt;
 
-&lt;h1 id=&#34;build-phase:490078144366c347e8b62bdc4bb6103e&#34;&gt;Build Phase&lt;/h1&gt;
+&lt;h1 id=&#34;build-phase&#34;&gt;Build Phase&lt;/h1&gt;
 
 &lt;p&gt;In contrast to Kodsnack this podcast is in English, but perhaps more importantly it covers a very particular programming platform. Namely Apples iOS and Mac OSX. It is usually hosted by two guys Mark and Gordon. They both have strong opinions and it is very educational to listen to their rants.&lt;/p&gt;
 
-&lt;p&gt;This is not a podcast for learning iOS development, they cover advanced topics such as functional programming. But if you are a little more advanced, you don&amp;rsquo;t have to be an expert, this podcast is great. It has inspired me to investigate functional programming and other paradigms. They always cover technical topics and rarely cover news and rumours, which makes it a great podcast for improving your iOS skills.&lt;/p&gt;
-</description>
+&lt;p&gt;This is not a podcast for learning iOS development, they cover advanced topics such as functional programming. But if you are a little more advanced, you don&amp;rsquo;t have to be an expert, this podcast is great. It has inspired me to investigate functional programming and other paradigms. They always cover technical topics and rarely cover news and rumours, which makes it a great podcast for improving your iOS skills.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -95,13 +92,13 @@
       <pubDate>Tue, 10 Mar 2015 17:12:44 +0100</pubDate>
       
       <guid>http://laptobbe.com/post/simple-website/</guid>
-      <description>
-
-&lt;p&gt;As you might see I have changed the design of my website (more likely this is your first time here, in any case welcome). I first got the idea when the site generation engine &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; was mentioned on &lt;a href=&#34;http://kodsnack.se/&#34;&gt;Kodsnack&lt;/a&gt;. They said they used it to generate the website for their podcast and it sounded very easy and convenient to use. So here it is.&lt;/p&gt;
+      <description>&lt;p&gt;As you might see I have changed the design of my website (more likely this is your first time here, in any case welcome). I first got the idea when the site generation engine &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; was mentioned on &lt;a href=&#34;http://kodsnack.se/&#34;&gt;Kodsnack&lt;/a&gt;. They said they used it to generate the website for their podcast and it sounded very easy and convenient to use. So here it is.&lt;/p&gt;
 
 &lt;p&gt;In this post I will write a bit about Hugo and what I think about the approach.&lt;/p&gt;
 
-&lt;h3 id=&#34;about-hugo:7cad05b780601120b74674fef9389d84&#34;&gt;About Hugo&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;about-hugo&#34;&gt;About Hugo&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;”A Fast &amp;amp; Modern Static Website Engine”&lt;/em&gt;&lt;/p&gt;
 
@@ -114,13 +111,13 @@
 
 &lt;p&gt;Since Hugo sites are actually just old HTML and CSS sites with no dynamic elements or server side loading the sites load extremely fast in the viewers browser. Again with the speed you say, yes it’s important! How much do you resent websites that load slowly? I for one can’t stand it, so why should my readers.&lt;/p&gt;
 
-&lt;h3 id=&#34;mobile:7cad05b780601120b74674fef9389d84&#34;&gt;Mobile&lt;/h3&gt;
+&lt;h3 id=&#34;mobile&#34;&gt;Mobile&lt;/h3&gt;
 
 &lt;p&gt;Hugo generates it’s sites from markdown as I mentioned earlier, this is great because that is just a basic textile. Making it easy to edit it from anywhere on any device. Fits me perfectly. One thing I need to solve with my setup is the fact that I host the site as a &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github page&lt;/a&gt;. Not that I want a different host but I need to find a good markdown editor with a git client. Hmm maybe I will just build one myself.&lt;/p&gt;
 
 &lt;p&gt;Anyway what I am thinking of doing now is to put the entire site into dropbox so I can easily get the files on my iPhone and iPad. Would be great to be able to review and write on the subway on the way to town.&lt;/p&gt;
 
-&lt;h3 id=&#34;themes:7cad05b780601120b74674fef9389d84&#34;&gt;Themes&lt;/h3&gt;
+&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
 
 &lt;p&gt;Hugo has a limited number of themes and they can be quite difficult to browse through. But it is open source and more are being added all the time. I actually added my theme as a submodule and it has been working great so far.&lt;/p&gt;
 
@@ -129,10 +126,9 @@
 
 &lt;p&gt;And it’s so easy to override the CSS, Images, etc., from the theme. Just add your version of the file you want to replace in your tree at the same relative path as in the theme and Hugo will pick that resource instead.&lt;/p&gt;
 
-&lt;h3 id=&#34;conclusion:7cad05b780601120b74674fef9389d84&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;To conclude. I think that if your website ”Needs” one of these big, evil content management systems, like &lt;a href=&#34;https://wordpress.com/website/&#34;&gt;Wordpress&lt;/a&gt;, you are doing it wrong!&lt;/p&gt;
-</description>
+&lt;p&gt;To conclude. I think that if your website ”Needs” one of these big, evil content management systems, like &lt;a href=&#34;https://wordpress.com/website/&#34;&gt;Wordpress&lt;/a&gt;, you are doing it wrong!&lt;/p&gt;</description>
     </item>
     
   </channel>
