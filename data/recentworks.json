@@ -1,101 +1,41 @@
 [
     {
         "id": 0,
-        "name": "Sample title - big data solutions",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Closr - sales and relations",
+        "image": "images/closr-app-text-note.png",
+        "url": "http://www.closr.io/closr-app",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
+                "name": "iOS Developer",
+                "url": "/cv"
             }
         ]
     },
     {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Prion - App for private photo sharing and communication.",
+        "image": "images/phone_preschool.png",
+        "url": "http://prionapp.com",
         "items": [
+          {
+              "name": "CTO",
+              "url": "/cv/"
+          },
+          {
+              "name": "Co-Founder",
+              "url": "/cv/"
+          },
+          {
+              "name": "Team lead",
+              "url": "/cv/"
+          },
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "iOS Developer",
+                "url": "/cv/"
             },
             {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Wordpress",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
-        "items": [
-            {
-                "name": "Web design",
-                "url": "#"
-            },
-            {
-                "name": "Logotype",
-                "url": "#"
+                "name": "Android developer",
+                "url": "/cv/"
             }
         ]
     }
