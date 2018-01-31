@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Laptobbe</title>
+    <link>http://laptobbe.com/service/index.xml</link>
+    <description>Recent content in Services on Laptobbe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jan 2018 01:09:38 +0100</lastBuildDate>
+    <atom:link href="http://laptobbe.com/service/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>iOS</title>
+      <link>http://laptobbe.com/service/ios/</link>
+      <pubDate>Tue, 30 Jan 2018 01:09:38 +0100</pubDate>
+      
+      <guid>http://laptobbe.com/service/ios/</guid>
+      <description>&lt;p&gt;For the last 10 year iOS has been my primary focus and work environment. Ranging from Objective C to Swift and API communication to Animations.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://laptobbe.com/service/android/</link>
+      <pubDate>Tue, 30 Jan 2018 01:09:35 +0100</pubDate>
+      
+      <guid>http://laptobbe.com/service/android/</guid>
+      <description>&lt;p&gt;In working in different startup environments I have accumulated a good understanding of Android and the Android eco system. From Java to Kotlin and the Android SDK.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>http://laptobbe.com/service/backend/</link>
+      <pubDate>Tue, 30 Jan 2018 01:09:32 +0100</pubDate>
+      
+      <guid>http://laptobbe.com/service/backend/</guid>
+      <description>&lt;p&gt;I have experience in working with backend systems and API design in several languages and environments such as Go, PHP, Ruby, Python, Node.js, AWS and Heroku.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Concept design</title>
+      <link>http://laptobbe.com/service/concept/</link>
+      <pubDate>Tue, 30 Jan 2018 01:08:04 +0100</pubDate>
+      
+      <guid>http://laptobbe.com/service/concept/</guid>
+      <description>&lt;p&gt;Working in startups means conceptualizing, designing and implementing all in one.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
