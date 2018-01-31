@@ -16,7 +16,7 @@ theme = "hugo-initio"
     favicon = "images/favicon.ico"
     profileimage = "images/me.png"
     DateForm = "January 2, 2006"
-    subheader = "Code is just code and language is just syntax. But understanding the need and making sure it goes the *right* thing not just *correctly*, that is the real challange."
+    subheader = "Code is just code and language is just syntax. But understanding the customer need and making sure the code goes the *right* thing not just *correctly* - that is the real challange."
 
     showSubheader = true
     showServices = true
